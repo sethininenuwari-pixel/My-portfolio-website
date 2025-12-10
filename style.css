@@ -366,6 +366,63 @@ span {
     }
 }
 
+/* -------------------------
+   SKILLS SECTION
+--------------------------*/
+.skills {
+    padding: 80px 10%;
+    background: #f7f7f7;
+}
+
+.skills .heading {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.skill-box {
+    background: rgba(96, 96, 155, 0.447);
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.skill-box i {
+    font-size: 45px;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+.skill-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.skill-box p {
+    font-size: 14px;
+    color: #444;
+}
+
+
+
+
+
+
+
+
 
 /* CONTACT FORM */
 .contact-form h2 {

@@ -156,7 +156,7 @@ span {
 ::-webkit-scrollbar-track {
     background: rgba(0, 0, 0, 0.6);
 }
- #education, #projects, #contact {
+ #education, #projects, #contact,#skills {
     scroll-margin-top: 120px;
 }
 
